@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    &__items__block {
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__pages__block {
+        width: 305px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__arrows {
+            width: 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__arrow {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #757575;
+    }
+}

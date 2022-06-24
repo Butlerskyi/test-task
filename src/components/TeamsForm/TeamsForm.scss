@@ -1,0 +1,8 @@
+.teams__form {
+    display: flex;
+    margin-top: 24px;
+    align-items: flex-end;
+    &__error__wrapper {
+        position: relative;
+    }
+}

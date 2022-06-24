@@ -1,0 +1,61 @@
+.teams__table {
+    width: 100%;
+    margin-top: 24px;
+    &__thead {
+        display: flex;
+        background: #EDE6FB;
+        border-radius: 6px 6px 6px 6px;
+    }
+
+    &__tr {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 16px 15px;
+        gap: 4px;
+        // font styles
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: #1D0053;
+    }
+
+    &__th {
+        display: flex;
+    }
+
+    &__tbody {
+        display: flex;
+        flex-direction: column;
+        &__tr {
+            border-bottom: 1px solid #EEEEEE;
+        }
+    }
+
+    &__td {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #14141E;
+        padding: 16px 16px 15px;
+        gap: 4px;
+    }
+
+    .name {
+        width: 130px;
+    }
+    .city {
+        width: 150px;
+    }
+    .abbreviation {
+        width: 134px;
+    }
+    .conference {
+        width: 124px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
